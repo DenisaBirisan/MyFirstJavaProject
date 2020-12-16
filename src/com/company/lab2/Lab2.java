@@ -40,30 +40,37 @@ public class Lab2 {
 
     }
     static int sum(int firstNumber, int secondNumber){
+
         return(firstNumber + secondNumber);
     }
 
     static int sub(int firstNumber, int secondNumber) {
+
         return (firstNumber - secondNumber);
     }
 
     static int div(int firstNumber, int secondNumber) {
+
         return (firstNumber / secondNumber);
     }
 
     static int times(int firstNumber, int secondNumber){
+
         return( firstNumber*secondNumber);
     }
 
     static int rest(int firstNumber, int secondNumber){
+
         return(firstNumber%secondNumber);
     }
 
     static double real(double firstNumber, double secondNumber){
+
         return(firstNumber/secondNumber);
     }
 
-    static double bigsum(int firstNumber, int secondNumber, double thirdNumber){
+    static double bigsum(int firstNumber, int secondNumber,
+                         double thirdNumber){
         return(firstNumber+secondNumber+thirdNumber);
     }
 
