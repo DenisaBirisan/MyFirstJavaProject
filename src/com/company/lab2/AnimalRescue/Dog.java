@@ -1,19 +1,102 @@
 package com.company.lab2.AnimalRescue;
 
 public class Dog {
-    String name = "Luna";
-    int age = 5;
-    double weight = 5;
-    String color = "Gold";
-    double heightInMeters = 0.75;
-    String breed = "Golden Retriever";
-    String eyeColor = "Hazel";
-    int healthLevel = 10;
-    int hungerLevel = 7;
-    int temperLevel = 8;
-    String favoriteFood = "Bones";
-    String facoriteActivity = "Running in circles";
-    String dogCollarColor = "rainbow";
+    private String name = "Luna";
+    private int age = 5;
+    private double weight = 5;
+    private String color = "Gold";
+    private double heightInMeters = 0.75;
+    private String breed = "Golden Retriever";
+    private String eyeColor = "Hazel";
+    private int healthLevel = 10;
+    private int hungerLevel = 7;
+    private String favoriteFood = "Bones";
+    private String facoriteActivity = "Running in circles";
+    private String dogCollarColor = "rainbow";
+
+    public String getName(){
+        return name;
+    }
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    public String getBreed(){
+        return breed;
+    }
+    public void setBreed(String breed){
+        this.breed=breed;
+    }
+
+    public String getEyeColor(){
+        return eyeColor;
+    }
+    public void setEyeColor(String eyeColor){
+        this.eyeColor=eyeColor;
+    }
+
+    public int getHealthLevel(){
+        return healthLevel;
+    }
+    public void setHealthLevel(){
+        this.healthLevel=healthLevel;
+    }
+
+    public int getAge(){
+        return age;
+    }
+    public void setAge(int age) {
+        this.age = age;
+    }
+
+    public double getWeight(){
+        return weight;
+    }
+    public void setWeight(double weight){
+        this.weight=weight;
+    }
+
+    public double getHeightInMeters(){
+        return heightInMeters;
+    }
+    public void setHeightInMeters(double heightInMeters){
+        this.heightInMeters=heightInMeters;
+    }
+
+    public String getColor(){
+        return color;
+    }
+    public void setColor (String color){
+        this.color=color;
+    }
+
+    public int getHungerLevel(){
+        return hungerLevel;
+    }
+    public void setHungerLevel(int hungerLevel){
+        this.hungerLevel=hungerLevel;
+    }
+
+    public String getFavoriteFood(){
+        return favoriteFood;
+    }
+    public void setFavoriteFood(String favoriteFood){
+        this.favoriteFood=favoriteFood;
+    }
+
+    public String getFacoriteActivity(){
+        return facoriteActivity;
+    }
+    public void setFacoriteActivity(String facoriteActivity){
+        this.facoriteActivity=facoriteActivity;
+    }
+
+    public String getDogCollarColor(){
+        return dogCollarColor;
+    }
+    public void setDogCollarColor(String dogCollarColor){
+        this.dogCollarColor=dogCollarColor;
+    }
 
 
     void bark(){

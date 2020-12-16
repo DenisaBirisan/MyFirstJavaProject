@@ -33,14 +33,13 @@ public class Main {
         result=celsius(70);
         System.out.println("Grade in Celsius: " + result);
 
-        result=meters(500.3);
+        result=meters(500);
         System.out.println(result + " metri");
 
         result=viteza(1609,10,10,10);
         System.out.println(result);
 
-
-
+        vit(2000,5,35,14);
 
 
 
@@ -129,7 +128,8 @@ public class Main {
     }
 
     static double meters(double primulNumar){
-        return (primulNumar*0.0254);
+
+        return (primulNumar/39.37);
     }
 
     static double viteza (double metri, double ore, double minute, double secunde){
@@ -140,8 +140,18 @@ public class Main {
         System.out.println(b);
         return (c);
 
+    }
+    static void vit(float metri, int ore, int min, int sec){
+        double a=metri/sec;
+        System.out.println(a+ " m/s");
+        double b=((metri/1000)/ore);
+        System.out.println(b+" km/h");
+        double c=((metri/1609)/ore);
+        System.out.println(c+" mile/h");
 
     }
+
+
 
     }
 
