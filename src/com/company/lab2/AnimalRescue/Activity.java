@@ -1,12 +1,12 @@
 package com.company.lab2.AnimalRescue;
 
 public class Activity {
-    private String activityName = "Running in the park";
-    private String location = "Central Park";
-    private int levelOfSafety = 8;
-    private double spaceInSquareFoot = 150.75;
-    private String trees = "Yes";
-    private String fence = "Yes";
+    private String activityName;
+    private String location;
+    private int levelOfSafety;
+    private double spaceInSquareFoot;
+    private String trees;
+    private String fence;
 
     public String getActivityName(){
         return activityName;

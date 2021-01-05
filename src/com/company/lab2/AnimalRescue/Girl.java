@@ -1,15 +1,15 @@
 package com.company.lab2.AnimalRescue;
 
 public class Girl {
-   private String girlName = "Emma";
-    private int girlAge = 18;
-    private String spaceAvailable = "Dog House and Big backyard";
-    private double money = 230.5;
-    private int timeAvailable = 7;
-    private int disponibilityLevel = 9;
-    private int confidenceLevel = 6;
-    private int dogLoveLevel = 10;
-    private String dogHouseColor = "Navy blue";
+   private String girlName;
+    private int girlAge;
+    private String spaceAvailable;
+    private double money;
+    private int timeAvailable;
+    private int disponibilityLevel;
+    private int confidenceLevel;
+    private int dogLoveLevel;
+    private String dogHouseColor;
 
     public String getGirlName(){
         return girlName;

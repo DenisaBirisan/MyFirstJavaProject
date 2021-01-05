@@ -1,15 +1,15 @@
 package com.company.lab2.AnimalRescue;
 
 public class Vet {
-    private String vetName = "Dr. McBones";
-    private int vetAge = 70;
-    private String vetCertification = "Gold Star";
-    private int levelOfExperience = 10;
-    private String vetSpecialty = "Neurology";
-    private String vetLocation = "Downtown no.15";
-    private int levelOfPatience = 9;
-    private int levelOfKindness = 8;
-    private double pricePerMeeting = 35.5;
+    private String vetName;
+    private int vetAge;
+    private String vetCertification;
+    private int levelOfExperience;
+    private String vetSpecialty;
+    private String vetLocation;
+    private int levelOfPatience;
+    private int levelOfKindness;
+    private double pricePerMeeting;
 
     public String getVetName(){
         return vetName;

@@ -1,12 +1,12 @@
 package com.company.lab2.AnimalRescue;
 
 public class DogFood {
-    private String dogFoodName = "Dreambone";
-    private double dogFoodPrice = 12.99;
-    private double dogFoodQty = 3.5;
-    private String dogFoodStore = "The Lovely Bones";
-    private String dogFoodComposition = "Chicken and vegetables";
-    private String dogFoodAvailability = "In Stock";
+    private String dogFoodName;
+    private double dogFoodPrice;
+    private double dogFoodQty;
+    private String dogFoodStore;
+    private String dogFoodComposition;
+    private String dogFoodAvailability;
 
     public String getDogFoodName(){
         return dogFoodName;

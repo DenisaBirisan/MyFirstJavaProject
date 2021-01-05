@@ -1,18 +1,18 @@
 package com.company.lab2.AnimalRescue;
 
 public class Dog {
-    private String name = "Luna";
-    private int age = 5;
-    private double weight = 5;
-    private String color = "Gold";
-    private double heightInMeters = 0.75;
-    private String breed = "Golden Retriever";
-    private String eyeColor = "Hazel";
-    private int healthLevel = 10;
-    private int hungerLevel = 7;
-    private String favoriteFood = "Bones";
-    private String facoriteActivity = "Running in circles";
-    private String dogCollarColor = "rainbow";
+    private String name;
+    private int age;
+    private double weight;
+    private String color;
+    private double heightInMeters;
+    private String breed;
+    private String eyeColor;
+    private int healthLevel;
+    private int hungerLevel;
+    private String favoriteFood;
+    private String facoriteActivity;
+    private String dogCollarColor;
 
     public String getName(){
         return name;

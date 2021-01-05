@@ -21,8 +21,11 @@ public class AppMain {
 
         Girl myGirl = new Girl();
 
+        myGirl.setGirlName("Sarah");
         System.out.println(myGirl.getGirlName());
+        myGirl.setDogLoveLevel(10);
         System.out.println(myGirl.getDogLoveLevel());
+        myGirl.setSpaceAvailable("nice space");
         System.out.println(myGirl.getSpaceAvailable());
 
         myGirl.setGirlName("Sarah");
