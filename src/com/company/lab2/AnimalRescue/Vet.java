@@ -1,8 +1,7 @@
 package com.company.lab2.AnimalRescue;
 
-public class Vet {
-    private String vetName;
-    private int vetAge;
+public class Vet extends Human {
+
     private String vetCertification;
     private int levelOfExperience;
     private String vetSpecialty;
@@ -11,19 +10,7 @@ public class Vet {
     private int levelOfKindness;
     private double pricePerMeeting;
 
-    public String getVetName(){
-        return vetName;
-    }
-    public void setVetName(String vetName){
-        this.vetName=vetName;
-    }
 
-    public int getVetAge(){
-        return vetAge;
-    }
-    public void setVetAge(int vetAge){
-        this.vetAge=vetAge;
-    }
 
     public String getVetCertification(){
         return vetCertification;

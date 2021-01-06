@@ -1,22 +1,14 @@
 package com.company.lab2.AnimalRescue;
 
-public class Girl {
-   private String girlName;
-    private int girlAge;
+public class Girl extends Human {
+
     private String spaceAvailable;
-    private double money;
     private int timeAvailable;
     private int disponibilityLevel;
     private int confidenceLevel;
     private int dogLoveLevel;
     private String dogHouseColor;
 
-    public String getGirlName(){
-        return girlName;
-    }
-    public void setGirlName(String girlName){
-        this.girlName=girlName;
-    }
 
     public String getSpaceAvailable(){
         return spaceAvailable;
@@ -32,19 +24,6 @@ public class Girl {
         this.dogLoveLevel=dogLoveLevel;
     }
 
-    public int getGirlAge(){
-        return girlAge;
-    }
-    public void setGirlAge(int girlAge){
-        this.girlAge=girlAge;
-    }
-
-    public double getMoney(){
-        return money;
-    }
-    public void setMoney(int money){
-        this.money=money;
-    }
 
     public int getTimeAvailable(){
         return timeAvailable;

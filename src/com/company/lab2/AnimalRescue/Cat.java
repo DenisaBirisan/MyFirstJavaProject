@@ -1,6 +1,5 @@
 package com.company.lab2.AnimalRescue;
 
-public class DogFood extends Food{
+public class Cat extends Animal{
 
 }
-
