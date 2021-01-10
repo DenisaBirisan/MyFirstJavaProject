@@ -31,4 +31,21 @@ public class Human {
     public String getCurrentlyLiving(){return currentlyLiving;}
     public void setCurrentlyLiving(String currentlyLiving){this.currentlyLiving=currentlyLiving;}
 
+    public void speak(){
+        System.out.println("Good afternoon doctor!");
+    }
+
+    public void ask(){
+        System.out.println("I need medicine for my dog!");
+    }
+    public void greet(){
+        System.out.println("Goodbye");
+    }
+    public void walk(){
+        System.out.println("Lalalala!");
+    }
+    public void sing(){
+        System.out.println("Last Christmas I gave you my heeaarrtt!!");
+    }
+
 }

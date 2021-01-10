@@ -14,7 +14,7 @@ public class AppMain {
         System.out.println(myDog.getName());
 
 
-        myDog.bark();
+        myDog.speak();
         myDog.eat();
 
 
@@ -78,6 +78,8 @@ public class AppMain {
         CatFood myCatFood=new CatFood();
         myCatFood.setFoodName("cat food");
         System.out.println(myCatFood.getFoodName());
+        myCat.speak();
+        myCat.eat();
 
     }
 

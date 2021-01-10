@@ -80,6 +80,16 @@ public class Vet extends Human {
         System.out.println("Give me the money! :)");
     }
 
+    public void ask(){
+        System.out.println("What happened?");
+    }
+    public void sing(){
+        System.out.println("Somewhere over the rainbooowww....!");
+    }
+    public void walk(){
+        System.out.println("*old man walking");
+    }
+
 
 
 

@@ -77,6 +77,14 @@ public class Girl extends Human {
         System.out.println("Oh no! Let's go to the vet to treat the wound!");
     }
 
+    public void speak(){
+        System.out.println("Good morning, sir!");
+    }
+    public void walk(){
+        System.out.println("*just walking ");
+    }
+
+
 
 
 
