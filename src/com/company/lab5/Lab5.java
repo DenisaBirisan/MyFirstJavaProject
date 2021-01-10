@@ -22,6 +22,28 @@ public class Lab5 {
         System.out.println(myLogic.printSecondLowestNumber(myArray6));
         int[] emptyArray=new int[10];
         myLogic.copieNumbersInOtherArray(myArray5,emptyArray);
+        System.out.println();
+        myLogic.insertElementInArray(myArray6,0,1);
+        System.out.println();
+        myLogic.findMaxMinFromArray(myArray6);
+        int[] myArrayExample={1,2,3,4,5};
+        int[] myArray8= myLogic.reverseArray(myArrayExample);
+        myLogic.printArray(myArray8);
+        System.out.println();
+        int[]myDublicateArray={1,2,3,4,3,2,5};
+        myLogic.printDuplicateValues(myDublicateArray);
+        System.out.println();
+        String []firstArray={"a","b","c","d","e"};
+        String[]secondArray={"a","c","s","l"};
+        myLogic.printCommonValues(firstArray,secondArray);
+        System.out.println();
+        int[]myArrayToArrange={2,5,4,1,3};
+        int[] myLastArray=myLogic.rearrangeArray(myArrayToArrange);
+        myLogic.printArray(myLastArray);
+
+
+
+
 
 
 
