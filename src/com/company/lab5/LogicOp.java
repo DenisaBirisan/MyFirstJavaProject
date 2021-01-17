@@ -15,7 +15,7 @@ public class LogicOp {
 
     public void printArray(int[] array) {
         for (int i = 0; i < array.length; i++) {
-            System.out.print(array[i] + " ");
+            System.out.println(array[i]);
         }
     }
 
@@ -120,119 +120,21 @@ public class LogicOp {
 //10. Creati o metoda care sa primeasca doi parametrii: un array populat cu valori, si un array gol.
 // Metoda sa copieze toate valorile din primul array, parcurgandu-l, in cel de-al doilea.
 
-    public void copieNumbersInOtherArray(int[] array, int[] emptyArray) {
-        for (int i = 0; i < array.length; i++) {
-            emptyArray[i] = array[i];
+    public void copieNumbersInOtherArray(int[]array,int[] emptyArray){
+        for(int i=0;i<array.length;i++){
+            emptyArray[i]=array[i];
         }
-        for (int j = 0; j < array.length; j++) {
-            System.out.print(emptyArray[j] + " ");
-        }
-    }
-
-//Tema optionala
-
-//1. Creati o metoda care insereze un element pe o pozitie specifica intr-un array.
-
-    public void insertElementInArray(int[] array, int element, int position) {
-        for (int i = 0; i < array.length; i++) {
-            if (i == position) {
-                array[i] = element;
-            }
-        }
-        for (int i = 0; i < array.length; i++) {
-            System.out.print(array[i] + " ");
-        }
-    }
-
-//2. Creati o metoda care sa gaseasca cel mai mare si cel mai mic numar dintr-un array.
-
-    public void findMaxMinFromArray(int[] array) {
-        int min = array[0];
-        int max = array[0];
-        for (int i = 0; i < array.length; i++) {
-            if (array[i] < min) {
-                min = array[i];
-            }
-            if (array[i] > max) {
-                max = array[i];
-            }
-        }
-        System.out.println("Numarul minim din sir este: " + min);
-        System.out.println("Numarul maxim din sir este: " + max);
-    }
-
-//3. Creati o metoda care sa inverseze valorile unui array de int-uri.
-
-    public int[] reverseArray(int[] array) {
-        int j = array[array.length - 1];
-        for (int i = 0; i < array.length; i++) {
-            array[i] = j;
-            j--;
-        }
-        return array;
-    }
-
-//4. Creati o metoda care sa gaseasca toate valorile duplicate dintr-un array.
-
-
-    public void printDuplicateValues(int[] array) {
-        for (int i = 0; i < array.length; i++) {
-            for (int j = i + 1; j < array.length - i; j++) {
-                if (array[i] == array[j]) {
-                    System.out.print(array[i] + " ");
-                }
-            }
-        }
-    }
-
-    //5. Creati o metoda care sa gaseasca toate elementele comune intre doua array-uri (array de String).
-
-    public void printCommonValues(String[] firstArray, String[] secondArray) {
-        for (int i = 0; i < firstArray.length; i++) {
-            for (int j = 0; j < secondArray.length; j++) {
-                if (firstArray[i] == secondArray[j]) {
-                    System.out.print(firstArray[i] + " ");
-                }
-            }
+        for(int j=0;j< array.length;j++){
+            System.out.print(emptyArray[j]+" ");
         }
     }
 
 
-//6. Creati o metoda care sa primeasca un array de numere ne-ordonat, si sa il returneze ordonat crescator.
 
-    public int[] rearrangeArray(int[] array) {
-        int x = 0;
-        for (int i = 0; i < array.length; i++) {
-            for (int j = i + 1; j < array.length; j++) {
-                if (array[i] > array[j]) {
-                    x = array[i];
-                    array[i] = array[j];
-                    array[j] = x;
-                    j = i + 1;
-                }
-            }
-        }
-        return array;
-    }
+
+
+
 }
-
-
-    //  public void rearrangeArray(int[]array){
-    //    int j=1;
-    //  int x=0;
-    //for (int i=0;i<array.length;i++){
-    //  if(array[i]>array[j]){
-    //    x=array[i];
-    //  array[i]=array[j];
-    //array[j]=x;
-    //j=i+1;
-    // }
-    //System.out.print(array[i]+" ");
-    //}
-
-
-
-
 
 
 
