@@ -1,6 +1,6 @@
 package com.company.lab2.AnimalRescue;
 
-public class Animal {
+public abstract class Animal {
     private String name;
     private int age;
     private double weight;
@@ -90,35 +90,24 @@ public class Animal {
         this.facoriteActivity=facoriteActivity;
     }
 
-    void speak(){ System.out.println("Ham Ham!"); }
+    abstract void  speak();
 
-    void eat(){
-        System.out.println("eating dogfood!");
-    }
+    abstract void eat();
 
-    void sleep(){
-        System.out.println("ZzzzZzzz..");
-    }
 
-    void play(){
-        System.out.println("This is fun! *talking to himself*");
-    }
+    abstract void sleep();
 
-    void cries(){
-        System.out.println("It huuuuuurtttss!");
-    }
 
-    void growls(){
-        System.out.println("I'm hangry! Give me food!");
-    }
+    abstract void play();
 
-    void sneez(){
-        System.out.println("Uoaaaaah, I'm sleepy!");
-    }
 
-    void  howls(){
-        System.out.println("When I grow up I wanna be a wolf!:D");
-    }
+    abstract void cries();
+
+    abstract void growls();
+
+    abstract void sneez();
+
+    abstract void  howls();
 
 
 }

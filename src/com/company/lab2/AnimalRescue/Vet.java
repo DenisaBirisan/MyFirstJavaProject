@@ -1,6 +1,6 @@
 package com.company.lab2.AnimalRescue;
 
-public class Vet extends Human {
+public abstract class Vet extends Human {
 
     private String vetCertification;
     private int levelOfExperience;

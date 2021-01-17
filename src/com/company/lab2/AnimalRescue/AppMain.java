@@ -43,17 +43,6 @@ public class AppMain {
         myDogFood.setFoodName("Best Bones Ever");
         System.out.println(myDogFood.getFoodName());
 
-        Vet myVet = new Vet();
-
-        System.out.println(myVet.getName());
-        System.out.println(myVet.getLevelOfExperience());
-        System.out.println(myVet.getVetLocation());
-
-        myVet.setVetLocation("Far Away, no.20");
-        System.out.println(myVet.getVetLocation());
-
-        myVet.consults();
-        myVet.treats();
 
         Activity myActivity = new Activity();
 
@@ -65,21 +54,18 @@ public class AppMain {
         System.out.println(myActivity.getLocation());
 
 
-        Duck myDuck=new Duck();
-        myDuck.setAge(3);
-        System.out.println(myDuck.getAge());
-        myDuck.setColor("grey");
-        System.out.println(myDuck.getColor());
+  //      Duck myDuck=new Duck();
+  //      myDuck.setAge(3);
+  //      System.out.println(myDuck.getAge());
+  //      myDuck.setColor("grey")
+        //      System.out.println(myDuck.getColor());
 
-        Cat myCat=new Cat();
-        myCat.setEyeColor("blue");
-        System.out.println(myCat.getEyeColor());
+
 
         CatFood myCatFood=new CatFood();
         myCatFood.setFoodName("cat food");
         System.out.println(myCatFood.getFoodName());
-        myCat.speak();
-        myCat.eat();
+
 
     }
 

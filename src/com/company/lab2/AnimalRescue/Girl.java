@@ -10,86 +10,105 @@ public class Girl extends Human {
     private String dogHouseColor;
 
 
-    public String getSpaceAvailable(){
+    public String getSpaceAvailable() {
         return spaceAvailable;
     }
-    public void setSpaceAvailable(String spaceAvailable){
-        this.spaceAvailable=spaceAvailable;
+
+    public void setSpaceAvailable(String spaceAvailable) {
+        this.spaceAvailable = spaceAvailable;
     }
 
-    public int getDogLoveLevel(){
+    public int getDogLoveLevel() {
         return dogLoveLevel;
     }
-    public void setDogLoveLevel(int dogLoveLevel){
-        this.dogLoveLevel=dogLoveLevel;
+
+    public void setDogLoveLevel(int dogLoveLevel) {
+        this.dogLoveLevel = dogLoveLevel;
     }
 
 
-    public int getTimeAvailable(){
+    public int getTimeAvailable() {
         return timeAvailable;
     }
-    public void setTimeAvailable(int timeAvailable){
-        this.timeAvailable=timeAvailable;
+
+    public void setTimeAvailable(int timeAvailable) {
+        this.timeAvailable = timeAvailable;
     }
 
-    public int getDisponibilityLevel(){
-        return  disponibilityLevel;
-    }
-    public void setDisponibilityLevel(int disponibilityLevel){
-        this.disponibilityLevel=disponibilityLevel;
+    public int getDisponibilityLevel() {
+        return disponibilityLevel;
     }
 
-    public int getConfidenceLevel(){
+    public void setDisponibilityLevel(int disponibilityLevel) {
+        this.disponibilityLevel = disponibilityLevel;
+    }
+
+    public int getConfidenceLevel() {
         return confidenceLevel;
     }
-    public void setConfidenceLevel(int confidenceLevel){
-        this.confidenceLevel=confidenceLevel;
+
+    public void setConfidenceLevel(int confidenceLevel) {
+        this.confidenceLevel = confidenceLevel;
     }
 
-    public String getDogHouseColor(){
+    public String getDogHouseColor() {
         return dogHouseColor;
     }
-   public void setDogHouseColor(String dogHouseColor){
-        this.dogHouseColor=dogHouseColor;
-   }
 
-    void play(){
+    public void setDogHouseColor(String dogHouseColor) {
+        this.dogHouseColor = dogHouseColor;
+    }
+
+    void play() {
         System.out.println("Ready? Go!");
     }
 
-    void feed(){
+    void feed() {
         System.out.println("Here is your food, Luna!");
     }
 
-    void pet(){
+    void pet() {
         System.out.println("Good girl!");
     }
 
-    void train(){
+    void train() {
         System.out.println("Sit! Give me paw!");
     }
 
-    void wash(){
+    void wash() {
         System.out.println("Let's give you a nice bath! :)");
     }
 
-    void takesDogToVet(){
+    void takesDogToVet() {
         System.out.println("Oh no! Let's go to the vet to treat the wound!");
     }
 
-    public void speak(){
+    public void speak() {
         System.out.println("Good morning, sir!");
     }
-    public void walk(){
+
+    public void walk() {
         System.out.println("*just walking ");
     }
 
+    public void ask() {
+        System.out.println("I need medicine for my dog!");
+    }
 
+    public void greet() {
+        System.out.println("Goodbye");
+    }
 
-
-
-
-
+    public void sing() {
+        System.out.println("Last Christmas I gave you my heeaarrtt!!");
+    }
 
 
 }
+
+
+
+
+
+
+
