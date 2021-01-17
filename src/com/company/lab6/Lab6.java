@@ -35,6 +35,19 @@ public class Lab6 {
     myLogic.showListDescription(myList);
     System.out.println(myLogic.printLowestNumberFromList(myList));
 
+    System.out.println(myLogic.changeTwoElementsFromList(myList,0,1));
+    System.out.println(myLogic.printEvenNumbersList(myList));
+        List<Integer> mySecondList=new ArrayList<>();
+        mySecondList.add(7);
+        mySecondList.add(1);
+        mySecondList.add(8);
+        mySecondList.add(3);
+        mySecondList.add(2);
+        mySecondList.add(5);
+
+    System.out.println(myLogic.printListinAscendentOrder(mySecondList));
+
+
     }
 
 }

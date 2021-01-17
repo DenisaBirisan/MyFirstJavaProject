@@ -1,5 +1,6 @@
 package com.company.lab6;
 
+import java.util.ArrayList;
 import java.util.List;
 
 public class LogicOp {
@@ -111,8 +112,49 @@ public class LogicOp {
         return lowest;
     }
 
+//Tema optionala
 
+//Scrieti o metoda Java care sa schimbe pozitia a doua elemente intr-o Lista
 
+    public List changeTwoElementsFromList(List<Integer>myList,int index1,int index2){
+        int change=0;
+        change=myList.get(index1);
+        myList.set(index1,myList.get(index2));
+        myList.set(index2,change);
 
+        return myList;
+    }
+
+//Scrieti o metoda Java care sa primeasca o Lista si sa returneze o alta lista, care
+// sa contina doar numerele pare din lista primita.
+
+    public List printEvenNumbersList(List<Integer> myList){
+        List<Integer> myEvenNumbersList=new ArrayList<>();
+        for (int i=0;i<myList.size();i++){
+            if(myList.get(i)%2==0){
+                myEvenNumbersList.add(myList.get(i));
+            }
+        }
+        return myEvenNumbersList;
+    }
+
+//Scrieti o metoda Java care sa primeasca parametru o Lista nesortata, si sa returneze
+// Lista sortata crescator. Atentie, sortarea sa se faca
+// programatic(adica logica sa fie scrisa de voi), si nu folosit librarie externa, precum Collection.sort().
+
+    public List printListinAscendentOrder(List<Integer> myList){
+        int extra=0;
+
+        for(int i=0;i<myList.size()-1;i++){
+            for(int j=i+1;j<myList.size();j++)
+                if(myList.get(i)>myList.get(j)){
+                    extra=myList.get(i);
+                    myList.set(i,myList.get(j));
+                    myList.set(j,extra);
+                }
+            }
+
+        return myList;
+    }
 
 }
